@@ -4,6 +4,7 @@ using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
 using NPOI.HSSF.UserModel;
 using Calculadora.Core.Entidades;
+using Calculadora.Core.Interfaces.Servicios;
 
 namespace Calculadora.Api.Controllers
 {
@@ -11,6 +12,13 @@ namespace Calculadora.Api.Controllers
     [ApiController]
     public class CalculadoraController : ControllerBase
     {
+
+        private readonly ICalculadoraServicio _calculadoraServicio;
+
+        public CalculadoraController(ICalculadoraServicio calculadoraServicio)
+        {
+            _calculadoraServicio = calculadoraServicio;
+        }
 
         [HttpGet]
         /// <summary>
@@ -33,39 +41,11 @@ namespace Calculadora.Api.Controllers
         public async Task<IActionResult> leerArchivo([FromForm] IFormFile ArchivoExcell)
         {
 
-            Stream stream = ArchivoExcell.OpenReadStream();
-            IWorkbook workbook = null;
-            if (Path.GetExtension(ArchivoExcell.FileName) == ".xlsx")
-            {
-                workbook = new XSSFWorkbook(stream);
-            }
-            else
-            {
-                workbook = new XSSFWorkbook(stream);
-            }
-
-            ISheet hojaExcell = workbook.GetSheetAt(0);
-
-            int cantidadFilas = hojaExcell.LastRowNum;
-
-            List<Plantas> lstPlantas = new List<Plantas>();
-
-            for (int i = 1; i <= hojaExcell.LastRowNum; i++)
-            {
-                IRow fila = hojaExcell.GetRow(i);
-
-                lstPlantas.Add(new Plantas
-                {
-                    nombre = fila.GetCell(0).ToString(),
-                    apellido = fila.GetCell(1).ToString(),
-                    telefono = fila.GetCell(2).ToString(),
-                    correo = fila.GetCell(3).ToString()
-                });
-            }
+            var objPlantas = await _calculadoraServicio.InsertarPlantas(ArchivoExcell);
             var response = new JsonResultApi()
             {
                 Success = true,
-                Data = lstPlantas,
+                Data = objPlantas,
                 Message = "Lectura exitosa"
             };
             return Ok(response);

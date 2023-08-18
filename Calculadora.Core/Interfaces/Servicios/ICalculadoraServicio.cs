@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Calculadora.Core.DTOs;
+using Calculadora.Core.Entidades;
+using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +11,6 @@ namespace Calculadora.Core.Interfaces.Servicios
 {
     public interface ICalculadoraServicio
     {
-        //Task<LibrosInsertDto> InsertarLibro(LibrosInsertDto libro);
+        Task<List<Plantas>> InsertarPlantas(IFormFile ArchivoExcell);
     }
 }

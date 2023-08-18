@@ -10,6 +10,6 @@ namespace Calculadora.Core.Interfaces.Repositorios
 {
     public interface ICalculadoraRepositorio
     {
-        Task<Plantas> Add(IFormFile ArchivoExcell);
+        Task<List<Plantas>> Add(IFormFile ArchivoExcell);
     }
 }
