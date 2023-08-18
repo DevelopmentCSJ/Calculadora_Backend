@@ -1,0 +1,15 @@
+D:\Desarrollo\Calculadora.Infraestructura\bin\Debug\net6.0\Calculadora.Infraestructura.deps.json
+D:\Desarrollo\Calculadora.Infraestructura\bin\Debug\net6.0\Calculadora.Infraestructura.dll
+D:\Desarrollo\Calculadora.Infraestructura\bin\Debug\net6.0\Calculadora.Infraestructura.pdb
+D:\Desarrollo\Calculadora.Infraestructura\bin\Debug\net6.0\Calculadora.Core.dll
+D:\Desarrollo\Calculadora.Infraestructura\bin\Debug\net6.0\Calculadora.Core.pdb
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.csproj.AssemblyReference.cache
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.AssemblyInfoInputs.cache
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.AssemblyInfo.cs
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.csproj.CopyComplete
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.dll
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\refint\Calculadora.Infraestructura.dll
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\Calculadora.Infraestructura.pdb
+D:\Desarrollo\Calculadora.Infraestructura\obj\Debug\net6.0\ref\Calculadora.Infraestructura.dll

@@ -1,0 +1,12 @@
+D:\Desarrollo\Calculadora.Core\bin\Debug\net6.0\Calculadora.Core.deps.json
+D:\Desarrollo\Calculadora.Core\bin\Debug\net6.0\Calculadora.Core.dll
+D:\Desarrollo\Calculadora.Core\bin\Debug\net6.0\Calculadora.Core.pdb
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\Calculadora.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\Calculadora.Core.AssemblyInfoInputs.cache
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\Calculadora.Core.AssemblyInfo.cs
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\Calculadora.Core.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\Calculadora.Core.dll
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\refint\Calculadora.Core.dll
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\Calculadora.Core.pdb
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\ref\Calculadora.Core.dll
+D:\Desarrollo\Calculadora.Core\obj\Debug\net6.0\Calculadora.Core.csproj.AssemblyReference.cache

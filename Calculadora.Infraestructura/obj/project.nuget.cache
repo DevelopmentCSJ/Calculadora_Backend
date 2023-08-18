@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZDNcxtGTyfKYOI413rUKa+xmkvBZtX6sLJR/VUga6kRjQaanyYjjjSmJeTPBdQnXopNM+coKWGJCl1Mjlwf73g==",
+  "success": true,
+  "projectFilePath": "D:\\Desarrollo\\Calculadora.Infraestructura\\Calculadora.Infraestructura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wmarina\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\wmarina\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\wmarina\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
